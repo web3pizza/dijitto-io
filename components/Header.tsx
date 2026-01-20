@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { BASE_PATH } from '@/lib/config';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +21,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/main" className="flex items-center">
             <Image
-              src="/images/dijitto-express-logo.svg"
+              src={`${BASE_PATH}/images/dijitto-express-logo.svg`}
               alt="DijittoExpress"
               width={190}
               height={30}

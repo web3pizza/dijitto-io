@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { BASE_PATH } from '@/lib/config';
 
 export default function Hero() {
   return (
@@ -42,7 +43,7 @@ export default function Hero() {
               {/* Bitcoin at top */}
               <div className="absolute top-0 left-1/2 transform -translate-x-1/2 bg-white p-8 rounded-full shadow-2xl hover:scale-110 transition-transform">
                 <Image
-                  src="/images/btcIcon.png"
+                  src={`${BASE_PATH}/images/btcIcon.png`}
                   alt="Bitcoin"
                   width={120}
                   height={120}
@@ -52,7 +53,7 @@ export default function Hero() {
               {/* Litecoin at bottom left */}
               <div className="absolute bottom-0 left-8 bg-white p-8 rounded-full shadow-2xl hover:scale-110 transition-transform">
                 <Image
-                  src="/images/ltcIcon.png"
+                  src={`${BASE_PATH}/images/ltcIcon.png`}
                   alt="Litecoin"
                   width={120}
                   height={120}
@@ -62,7 +63,7 @@ export default function Hero() {
               {/* Dogecoin at bottom right */}
               <div className="absolute bottom-0 right-8 bg-white p-8 rounded-full shadow-2xl hover:scale-110 transition-transform">
                 <Image
-                  src="/images/dogeIcon.png"
+                  src={`${BASE_PATH}/images/dogeIcon.png`}
                   alt="Dogecoin"
                   width={120}
                   height={120}

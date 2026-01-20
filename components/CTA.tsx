@@ -1,14 +1,15 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { BASE_PATH } from '@/lib/config';
 
 export default function CTA() {
   const wallets = [
-    { name: 'MyDoge', image: '/images/mydoge.webp' },
-    { name: 'Trust Wallet', image: '/images/trustwallet.png' },
-    { name: 'Exodus', image: '/images/exodus.png' },
-    { name: 'Coinbase Wallet', image: '/images/coinbasewallet.png' },
-    { name: 'SafePal', image: '/images/safepal.png' },
-    { name: 'Atomic', image: '/images/atomic.jpeg' },
+    { name: 'MyDoge', image: `${BASE_PATH}/images/mydoge.webp` },
+    { name: 'Trust Wallet', image: `${BASE_PATH}/images/trustwallet.png` },
+    { name: 'Exodus', image: `${BASE_PATH}/images/exodus.png` },
+    { name: 'Coinbase Wallet', image: `${BASE_PATH}/images/coinbasewallet.png` },
+    { name: 'SafePal', image: `${BASE_PATH}/images/safepal.png` },
+    { name: 'Atomic', image: `${BASE_PATH}/images/atomic.jpeg` },
   ];
 
   return (
