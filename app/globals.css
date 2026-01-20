@@ -10,6 +10,13 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Dijitto Brand Colors */
+  --color-primary-blue: #1E3A8A;
+  --color-gunmetal-gray: #374151;
+  --color-accent-blue: #169EDD;
+  --color-light-gray: #F3F4F6;
+  --color-white: #FFFFFF;
 }
 
 @media (prefers-color-scheme: dark) {
