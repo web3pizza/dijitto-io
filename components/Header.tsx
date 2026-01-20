@@ -41,12 +41,13 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <a
+            {/* Temporarily hidden for Apple approval */}
+            {/* <a
               href="https://app.dijitto.io/request"
               className="bg-[#169EDD] hover:bg-[#1E3A8A] text-white px-6 py-2 rounded transition-colors font-medium"
             >
               Join the Waitlist
-            </a>
+            </a> */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -87,12 +88,13 @@ export default function Header() {
                   {link.label}
                 </Link>
               ))}
-              <a
+              {/* Temporarily hidden for Apple approval */}
+              {/* <a
                 href="https://app.dijitto.io/request"
                 className="bg-[#169EDD] hover:bg-[#1E3A8A] text-white px-6 py-3 rounded text-center transition-colors font-medium"
               >
                 Join the Waitlist
-              </a>
+              </a> */}
             </div>
           </div>
         )}

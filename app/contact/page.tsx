@@ -62,8 +62,9 @@ export default function ContactPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
+        <div className="max-w-2xl mx-auto">
+          {/* Temporarily hidden for Apple approval */}
+          {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h2 className="text-2xl font-bold text-[#1E3A8A] mb-6">Send Us a Message</h2>
 
@@ -146,6 +147,7 @@ export default function ContactPage() {
               </button>
             </form>
           </div>
+          */ }
 
           {/* Contact Information */}
           <div className="space-y-8">
@@ -183,8 +185,8 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Quick Links Card */}
-            <div className="bg-gradient-to-br from-[#1E3A8A] to-[#169EDD] rounded-lg shadow-lg p-8 text-white">
+            {/* Temporarily hidden for Apple approval */}
+            {/* <div className="bg-gradient-to-br from-[#1E3A8A] to-[#169EDD] rounded-lg shadow-lg p-8 text-white">
               <h3 className="text-xl font-bold mb-4">Ready to Get Started?</h3>
               <p className="mb-6">
                 Join the growing number of retailers accepting cryptocurrency with DijittoExpress.
@@ -195,7 +197,7 @@ export default function ContactPage() {
               >
                 Join the Waitlist
               </a>
-            </div>
+            </div> */}
 
             {/* FAQ Card */}
             <div className="bg-white rounded-lg shadow-lg p-8">
@@ -216,6 +218,7 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
+        {/* </div> */} {/* Closing div for grid - commented out with form */}
         </div>
       </div>
     </main>

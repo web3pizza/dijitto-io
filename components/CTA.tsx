@@ -28,12 +28,13 @@ export default function CTA() {
           <p className="text-xl md:text-2xl font-semibold mb-12">
             Join us on this exciting journey!
           </p>
-          <a
+          {/* Temporarily hidden for Apple approval */}
+          {/* <a
             href="https://app.dijitto.io/request"
             className="inline-block bg-white text-[#1E3A8A] hover:bg-gray-100 px-10 py-4 rounded-lg font-bold text-xl transition-colors shadow-lg"
           >
             Join the Waitlist
-          </a>
+          </a> */}
         </div>
 
         {/* Supported Wallets */}

@@ -26,14 +26,15 @@ export default function Hero() {
               your existing POS systems. It's the ultimate solution for sophisticated retailers who are
               passionate about blockchain technology.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            {/* Temporarily hidden for Apple approval */}
+            {/* <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
                 href="https://app.dijitto.io/request"
                 className="bg-white text-[#1E3A8A] hover:bg-gray-100 px-8 py-4 rounded-lg font-bold text-lg transition-colors inline-block text-center"
               >
                 Join the Waitlist
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Crypto Logo Triangle */}
