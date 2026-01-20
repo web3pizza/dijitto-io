@@ -1,3 +1,3 @@
 // Base path for GitHub Pages deployment
-// Set to '' for local development or custom domain
-export const BASE_PATH = '/dijitto-io';
+// Empty string for custom domain (dijitto.io)
+export const BASE_PATH = '';
