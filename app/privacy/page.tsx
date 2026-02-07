@@ -114,7 +114,7 @@ export default function PrivacyPage() {
             </p>
             <div className="bg-[#F3F4F6] p-6 rounded-lg">
               <p className="text-[#374151] mb-2">
-                <strong>Email:</strong> <a href="mailto:privacy@dijitto.io" className="text-[#169EDD] hover:underline">privacy@dijitto.io</a>
+                <strong>Email:</strong> <a href="mailto:aaron@dijitto.io" className="text-[#169EDD] hover:underline">aaron@dijitto.io</a>
               </p>
               <p className="text-[#374151]">
                 <strong>Location:</strong> Wilmington, Delaware

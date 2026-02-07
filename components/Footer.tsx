@@ -7,7 +7,8 @@ export default function Footer() {
     { href: '/main#about', label: 'About' },
     { href: '/main#how-it-works', label: 'How It Works' },
     { href: '/contact', label: 'Contact' },
-    { href: '/privacy', label: 'Privacy Policy' },
+    { href: '/privacy', label: 'Privacy Policy (Express)' },
+    { href: '/privacy/orbit', label: 'Privacy Policy (Orbit)' },
   ];
 
   return (
