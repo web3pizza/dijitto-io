@@ -29,9 +29,9 @@ export default function OrbitPrivacyPage() {
 
             <h3 className="text-xl font-semibold text-[#1E3A8A] mb-3">Information You Provide</h3>
             <ul className="list-disc pl-6 text-[#374151] mb-4 space-y-2">
-              <li><strong>Phone Number:</strong> Used for account authentication via SMS verification</li>
+              <li><strong>Email and Password:</strong> Used for account authentication</li>
               <li><strong>Display Name:</strong> Optional name you choose to display on leaderboards</li>
-              <li><strong>Cryptocurrency Wallet Addresses:</strong> Addresses you register for loyalty point tracking</li>
+              <li><strong>Cryptocurrency Wallet Addresses:</strong> Public addresses only, used for loyalty point tracking. We never collect or store private keys.</li>
             </ul>
 
             <h3 className="text-xl font-semibold text-[#1E3A8A] mb-3">Information Collected Automatically</h3>
@@ -78,7 +78,7 @@ export default function OrbitPrivacyPage() {
             </p>
             <ul className="list-disc pl-6 text-[#374151] mb-4 space-y-2">
               <li><strong>Cryptocurrency Networks:</strong> Bitcoin, Litecoin, and Dogecoin blockchains for transaction processing</li>
-              <li><strong>SMS Providers:</strong> For sending verification codes</li>
+              <li><strong>Email Service Providers:</strong> For sending account verification and notifications</li>
             </ul>
           </section>
 
@@ -118,7 +118,7 @@ export default function OrbitPrivacyPage() {
                 <strong>Dijitto Inc</strong>
               </p>
               <p className="text-[#374151]">
-                <strong>Email:</strong> <a href="mailto:privacy@dijitto.com" className="text-[#169EDD] hover:underline">privacy@dijitto.com</a>
+                <strong>Email:</strong> <a href="mailto:aaron@dijitto.io" className="text-[#169EDD] hover:underline">aaron@dijitto.io</a>
               </p>
             </div>
           </section>
